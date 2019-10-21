@@ -8,22 +8,22 @@
 	<packaging>jar</packaging>
 
 	<name>maven-stanalone-application</name>
-	<url>http://mithuntechnologies.com</url>
+	<url>http://rbntechnologies.com</url>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name>RBN Technologies</name>
+		<url>http://rbntechnologies.com/</url>
 	</organization>
 	
 	<description>Maven Standalone Application</description>
-
+/*
 	<properties>
 		<sonar.host.url>http://35.154.242.68:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
+*/
 	<dependencies>
 
 		<dependency>
@@ -39,15 +39,15 @@
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
 		mvn scm:update -->
 	<scm>
-		<connection>scm:git:https://github.com/MithunTechnologiesDevOps/maven-standalone-application</connection>
-		<developerConnection>scm:git:https://github.com/MithunTechnologiesDevOps/maven-standalone-application</developerConnection>
+		<connection>scm:git:https://github.com/rabbani-org/maven-standalone-application.git</connection>
+		<developerConnection>scm:git:https://github.com/rabbani-org/maven-standalone-application.git</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/MithunTechnologiesDevOps/maven-standalone-application</url>
+		<url>https://https://github.com/rabbani-org/maven-standalone-application.git</url>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/MithunTechnologiesDevOps/maven-standalone-application/issues</url>
+		<url>https://github.com/rabbani-org/maven-standalone-application.git/issues</url>
 	</issueManagement>
 
 </project>
